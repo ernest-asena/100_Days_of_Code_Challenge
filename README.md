@@ -16,3 +16,6 @@ From beginner to advanced level projects, I have had fun building with Python.
 </ul>
 
 Should you use the APIs here, please get your own keys.
+
+
+<img src='https://assets-global.website-files.com/6080d45b6168d4415fe5cbd7/60884c8981cb68df3afd8bc9_1589514797-essential-guide-to-the-100-days-of-code-challenge.png'>
