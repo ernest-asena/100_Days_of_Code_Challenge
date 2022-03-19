@@ -5,7 +5,12 @@ This repository contains code files from the 100 Days of Code Challenge.
 
 From beginner to advanced level projects, I have had fun building with Python.
 <ul>
-  <li> hey </li>
-  <li> hey hey </>
-
+  <li> Python Scripting </li>
+  <li> Automation </>
+  <li> Working with APIs </>
+  <li> GUI Development </li>
+  <li> Web Design </li>
+  <li> Web Development </li>
+  <li> Web Scraping </li>
+  <li> Data Science </li>
 </ul>
