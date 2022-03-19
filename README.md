@@ -14,3 +14,5 @@ From beginner to advanced level projects, I have had fun building with Python.
   <li> Web Scraping </li>
   <li> Data Science </li>
 </ul>
+
+Should you use the APIs here, please get your own keys.
