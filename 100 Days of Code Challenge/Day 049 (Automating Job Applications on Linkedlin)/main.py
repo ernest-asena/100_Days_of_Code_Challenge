@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import config
 import time
 
-chrome_driver_path = '/Users/nesi/dvm/chromedriver'
+chrome_driver_path = '/Users/bond/devset/chromedriver'
 jobs_url = 'https://www.linkedin.com/jobs/search/?f_AL=true&geoId=101339379&keywords=data%20analyst&location=Nairobi%2C%20Kenya'
 
 service = Service(chrome_driver_path)

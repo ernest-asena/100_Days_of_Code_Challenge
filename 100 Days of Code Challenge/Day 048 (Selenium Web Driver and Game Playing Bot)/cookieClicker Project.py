@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 
-chrome_driver_path = '/Users/nesi/dvm/chromedriver'
+chrome_driver_path = '/Users/bond/devset/chromedriver'
 service = Service(chrome_driver_path)
 driver = webdriver.Chrome(service=service)
 

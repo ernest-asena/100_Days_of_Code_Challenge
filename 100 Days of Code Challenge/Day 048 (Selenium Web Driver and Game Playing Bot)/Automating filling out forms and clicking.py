@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-chrome_driver_path = '/Users/nesi/dvm/chromedriver'
+chrome_driver_path = '/Users/bond/devset/chromedriver'
 # base_url = 'https://en.wikipedia.org/wiki/Main_Page'
 #
 service = Service(chrome_driver_path)

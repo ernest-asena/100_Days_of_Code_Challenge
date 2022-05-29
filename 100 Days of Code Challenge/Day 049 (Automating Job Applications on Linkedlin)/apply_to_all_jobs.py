@@ -11,7 +11,7 @@ ACCOUNT_PASSWORD = config.LINKEDLIN_PASS
 PHONE = config.LINKEDLIN_PHONE
 
 
-chrome_driver_path = '/Users/nesi/dvm/chromedriver'
+chrome_driver_path = '/Users/bond/devset/chromedriver'
 
 service = Service(chrome_driver_path)
 driver = webdriver.Chrome(service=service)
