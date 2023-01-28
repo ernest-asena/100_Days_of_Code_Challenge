@@ -3,7 +3,7 @@
 
 This repository contains code files from the 100 Days of Code Challenge.
 
-From beginner to advanced level projects, I had fun learning and building with Python.
+From beginner to advanced level projects, I had fun learning and building with Python including...
 <ul>
   <li> Python Scripting </li>
   <li> Automation </li>
