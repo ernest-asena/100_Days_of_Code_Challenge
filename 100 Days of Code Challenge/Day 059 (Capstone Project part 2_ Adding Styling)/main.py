@@ -13,6 +13,7 @@ def get_all_posts():
 
 @app.route("/post/<int:index>")
 def show_post(index):
+    """Get all post objects"""
     requested_post = None
     for blog_post in posts:
         if blog_post["id"] == index:
