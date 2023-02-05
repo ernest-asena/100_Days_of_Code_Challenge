@@ -45,6 +45,9 @@
 
 # #Use a Debugger
 def mutate(a_list):
+    """
+    mutates a list
+    """
     b_list = []
     for item in a_list:
         new_item = item * 2
