@@ -1,5 +1,5 @@
 import tkinter as tk
-import pyttsx3
+# import pyttsx3
 import math as m
 
 # ---------------------------- CONSTANTS ------------------------------- #
@@ -17,7 +17,7 @@ SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 reps = 0
 timer = None
-ENGINE = pyttsx3.init()
+# ENGINE = pyttsx3.init()
 
 
 # ---------------------------- TIMER RESET ------------------------------- #
