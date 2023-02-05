@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import smtplib
-import config
+# import config
 
 item_url = 'https://www.amazon.com/Apple-MacBook-2-5GHz-MGXC2LL-Refurbished/dp/B0784J8FXM/ref=sr_1_2?dchild=1' \
            '&keywords=macbook+pro+15+inch&qid=1635619549&sr=8-2'
