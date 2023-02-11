@@ -28,6 +28,7 @@ def check_answer(guess, a_followers, b_followers):
 
 
 def game():
+    "module to create game"
     print(logo)
     score = 0
     game_should_continue = True
