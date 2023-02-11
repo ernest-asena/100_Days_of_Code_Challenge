@@ -14,4 +14,3 @@
 # Whitespace is used for indentation in Python. All statements with the same distance to the right belong to the same
 # block of code. If a block has to be more deeply nested, it is simply indented further to the right. You can understand
 # it better by looking at the following lines of code.
-
