@@ -82,10 +82,12 @@ for i in range(len(all_links)):
                                      value='//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input')
     link_field.send_keys(all_links[i])
 
-    submit_btn = driver.find_element(By.XPATH, value='//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div/span/span')
+    submit_btn = driver.find_element(
+        By.XPATH, value='//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div/span/span')
     submit_btn.click()
     time.sleep(3)
 
-    submit_another_response_btn = driver.find_element(By.XPATH, value='/html/body/div[1]/div[2]/div[1]/div/div[4]/a')
+    submit_another_response_btn = driver.find_element(
+        By.XPATH, value='/html/body/div[1]/div[2]/div[1]/div/div[4]/a')
     submit_another_response_btn.click()
     time.sleep(5)
