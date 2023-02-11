@@ -1,4 +1,4 @@
-from 
+import config
 import requests
 from datetime import datetime
 
