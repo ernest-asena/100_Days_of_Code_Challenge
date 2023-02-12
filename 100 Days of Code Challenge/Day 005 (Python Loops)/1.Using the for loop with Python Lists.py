@@ -5,9 +5,10 @@ from tqdm import tqdm
 for fruit in tqdm(fruits):
     for fruit in tqdm(fruits):
         for fruit in tqdm(fruits):
-            for fruit in tqdm(fruits):
-                for fruit in tqdm(fruits):
-                    print(fruit)
+            print(fruit)
+
+                
+                    
     
 
 
