@@ -7,7 +7,7 @@ for number in range(1, 11):
 print('***********************************************************************')
 # you can configure the step value as follows:
 for number in range(1, 11, 4):
-    print(f'Curent number is: {number}')
+    print(f'Curent number is:: {number}')
 
 # add up all the numbers between 1 and 100
 sum_one_to_oneHundred = 0
