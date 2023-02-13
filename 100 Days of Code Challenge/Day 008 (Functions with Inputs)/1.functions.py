@@ -4,7 +4,9 @@
 # Call the greet() function and run your code.
 
 def greet():
-    "function nexample"
+    """
+    basic function example
+    """
     print('Hello there!')
     print('Good morning!')
     print('It will be cold today, reaching -3. Wear warm clothing')
