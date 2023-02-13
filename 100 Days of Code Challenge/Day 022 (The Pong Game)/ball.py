@@ -2,6 +2,7 @@ from turtle import Turtle
 
 
 class Ball(Turtle):
+    """Ball definition"""
     def __init__(self):
         super().__init__()
         self.color('white')
@@ -12,6 +13,7 @@ class Ball(Turtle):
         self.move_speed = 0.1
 
     def move(self):
+        """move ball"""
         new_x = self.xcor() + self.x_move
         new_y = self.ycor() + self.y_move
         self.goto(new_x, new_y)
