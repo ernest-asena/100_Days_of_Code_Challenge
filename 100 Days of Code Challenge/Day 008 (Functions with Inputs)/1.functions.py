@@ -15,6 +15,9 @@ greet()
 
 # A function that allows for input
 def greet_with_name(name):
+    """
+    func with parameter example
+    """
     print(f'Hello {name}.')
     print('Good morning!')
     print('It will be cold today, reaching -3. Wear warm clothing.')
