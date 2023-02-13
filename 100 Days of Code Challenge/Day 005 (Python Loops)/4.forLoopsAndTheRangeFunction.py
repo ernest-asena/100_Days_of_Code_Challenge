@@ -2,7 +2,7 @@
 # example:
 
 for number in range(1, 11):
-    print(f'Curent number: {number}')
+    print(f'Curent number : {number}')
 
 print('***********************************************************************')
 # you can configure the step value as follows:
