@@ -10,6 +10,7 @@ shift = int(input("Type the shift number:\n"))
 # TODO-1: Combine the encrypt() and decrypt() functions into a single function called caesar().
 
 def caesar(start_text, shift_amount, cipher_direction):
+    """caesar function start"""
     end_text = ''
     if cipher_direction == 'decode':
         shift_amount *= -1
