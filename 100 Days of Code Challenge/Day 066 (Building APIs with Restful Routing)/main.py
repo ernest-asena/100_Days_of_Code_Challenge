@@ -60,6 +60,7 @@ def get_cafe_at_location():
 
 @app.route("/add", methods=["POST"])
 def post_new_cafe():
+    """Add a new cafe to the database."""
     new_cafe = Cafe(
         name=request.form.get("name"),
         map_url=request.form.get("map_url"),
