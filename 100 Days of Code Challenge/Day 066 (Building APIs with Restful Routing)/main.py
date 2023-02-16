@@ -43,6 +43,7 @@ def get_random_cafe():
 
 @app.route("/all")
 def get_all_cafes():
+    """Return all the cafes in the database."""
     cafes = db.session.query(Cafe).all()
     return jsonify(cafes=[cafe.to_dict() for cafe in cafes])
 
