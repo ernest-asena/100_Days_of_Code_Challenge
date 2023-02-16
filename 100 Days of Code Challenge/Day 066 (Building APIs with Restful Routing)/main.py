@@ -12,6 +12,7 @@ db = SQLAlchemy(app)
 
 # CREATE TABLE
 class Cafe(db.Model):
+    """Create a table for the cafes in the database."""
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(250), unique=True, nullable=False)
     map_url = db.Column(db.String(500), nullable=False)
