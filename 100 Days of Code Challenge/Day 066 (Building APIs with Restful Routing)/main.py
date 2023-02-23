@@ -83,6 +83,7 @@ def post_new_cafe():
 
 @app.route("/update-price/<int:cafe_id>", methods=["PATCH"])
 def patch_new_price(cafe_id):
+    """Update the price of a specific cafe."""
     new_price = request.args.get("new_price")
     cafe = db.session.query(Cafe).get(cafe_id)
     if cafe:
