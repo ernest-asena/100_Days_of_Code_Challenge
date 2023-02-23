@@ -31,6 +31,7 @@ class Cafe(db.Model):
 
 @app.route("/")
 def home():
+    """Get the home page."""
     return render_template("index.html")
 
 
