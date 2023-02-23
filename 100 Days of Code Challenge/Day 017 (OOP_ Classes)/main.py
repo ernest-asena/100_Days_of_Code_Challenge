@@ -10,6 +10,7 @@ for question in question_data:
 
 quiz = QuizBrain(question_bank)
 
+# check if there are still questions in the quiz
 while quiz.still_has_questions():
     quiz.next_question()
 
