@@ -52,6 +52,7 @@ def get_all_cafes():
 
 @app.route("/search")
 def get_cafe_at_location():
+    """Return a cafe at a specific location."""
     query_location = request.args.get("loc")
     cafe = db.session.query(Cafe).filter_by(location=query_location).first()
     if cafe:
