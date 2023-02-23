@@ -37,6 +37,7 @@ def home():
 
 @app.route("/random")
 def get_random_cafe():
+    """Return a random cafe from the database."""
     cafes = db.session.query(Cafe).all()
     random_cafe = random.choice(cafes)
     return jsonify(cafe=random_cafe.to_dict())
