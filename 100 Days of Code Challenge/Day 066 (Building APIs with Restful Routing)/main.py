@@ -96,6 +96,7 @@ def patch_new_price(cafe_id):
 
 @app.route("/report-closed/<int:cafe_id>", methods=["DELETE"])
 def delete_cafe(cafe_id):
+    """Delete a specific cafe from the database."""
     api_key = request.args.get("api-key")
     if api_key == "TopSecretAPIKey":
         cafe = db.session.query(Cafe).get(cafe_id)
