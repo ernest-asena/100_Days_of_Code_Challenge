@@ -24,6 +24,7 @@ class CafeForm(FlaskForm):
 
 @app.route("/")
 def home():
+    """Render website's home page."""
     return render_template("index.html")
 
 
