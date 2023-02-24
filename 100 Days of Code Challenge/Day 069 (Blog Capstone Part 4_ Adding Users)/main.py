@@ -44,6 +44,7 @@ class User(UserMixin, db.Model):
 
 
 class BlogPost(db.Model):
+    """Create a blog post table."""
     __tablename__ = "blog_posts"
     id = db.Column(db.Integer, primary_key=True)
     author_id = db.Column(db.Integer, db.ForeignKey("users.id"))
