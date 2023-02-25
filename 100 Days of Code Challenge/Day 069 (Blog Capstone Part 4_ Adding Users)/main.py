@@ -149,6 +149,7 @@ def logout():
 
 @app.route("/post/<int:post_id>", methods=["GET", "POST"])
 def show_post(post_id):
+    """Show a blog post and allow users to comment."""
     form = CommentForm()
     requested_post = BlogPost.query.get(post_id)
 
