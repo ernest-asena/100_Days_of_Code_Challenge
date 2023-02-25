@@ -171,6 +171,7 @@ def show_post(post_id):
 
 @app.route("/about")
 def about():
+    """Render the about page."""
     footer_year = datetime.now().year
     return render_template("about.html", current_user=current_user, year=footer_year)
 
