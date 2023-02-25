@@ -120,6 +120,7 @@ def register():
 
 @app.route('/login', methods=["GET", "POST"])
 def login():
+    """Log in a user and redirect to the index page."""
     form = LoginForm()
     if form.validate_on_submit():
         email = form.email.data
