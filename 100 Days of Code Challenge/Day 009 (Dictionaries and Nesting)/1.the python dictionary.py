@@ -15,6 +15,7 @@ programming_dictionary['tuple'] = 'A data type in Python that is immutable.'
 
 # creating an empty dictionary
 empty_dict = {}
+empty_dict2 = dict()
 
 # wipe an entire dictionary
 # programming_dictionary = {}
