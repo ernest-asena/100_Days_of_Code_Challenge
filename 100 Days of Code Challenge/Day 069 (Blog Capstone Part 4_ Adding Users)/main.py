@@ -83,6 +83,7 @@ def admin_only(f):
 
 @app.route('/')
 def get_all_posts():
+    """Get all blog posts and render the index.html template."""
     year = datetime.now().year
     posts = BlogPost.query.all()
     return render_template("index.html", all_posts=posts, current_user=current_user, footer_year=year)
