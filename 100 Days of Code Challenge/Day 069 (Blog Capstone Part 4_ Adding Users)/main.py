@@ -228,6 +228,7 @@ def edit_post(post_id):
 @app.route("/delete/<int:post_id>")
 @admin_only
 def delete_post(post_id):
+    """Delete a blog post and redirect to the index page."""
     post_to_delete = BlogPost.query.get(post_id)
     db.session.delete(post_to_delete)
     db.session.commit()
