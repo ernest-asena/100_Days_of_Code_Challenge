@@ -30,6 +30,7 @@ def about():
 
 @app.route("/contact")
 def contact():
+    """contact page"""
     return render_template("contact.html")
 
 app.run(debug=True, host='0.0.0.0')
