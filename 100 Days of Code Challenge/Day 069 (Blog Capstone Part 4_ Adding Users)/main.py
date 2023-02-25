@@ -142,6 +142,7 @@ def login():
 
 @app.route('/logout')
 def logout():
+    """Log out a user and redirect to the index page."""
     logout_user()
     return redirect(url_for('get_all_posts'))
 
