@@ -178,6 +178,7 @@ def about():
 
 @app.route("/contact")
 def contact():
+    """Render the contact page."""
     return render_template("contact.html", current_user=current_user)
 
 
