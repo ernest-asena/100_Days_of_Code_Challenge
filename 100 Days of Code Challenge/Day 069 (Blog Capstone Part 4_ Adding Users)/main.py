@@ -73,6 +73,7 @@ db.create_all()
 def admin_only(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
+        """Prevent non-admins from accessing the page."""
         if current_user.id != 4:
             return abort(403)
         return f(*args, **kwargs)
