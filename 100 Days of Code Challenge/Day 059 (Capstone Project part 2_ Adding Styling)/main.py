@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_all_posts():
+    """Get all post objects"""
     return render_template("index.html", all_posts=posts)
 
 
