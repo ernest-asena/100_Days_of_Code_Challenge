@@ -16,6 +16,7 @@ class Player(Turtle):
         self.setheading(90)
 
     def go_up(self):
+        """This method moves the player object up the screen."""
         self.forward(MOVE_DISTANCE)
 
     def go_to_start(self):
