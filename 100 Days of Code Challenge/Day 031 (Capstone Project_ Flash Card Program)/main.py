@@ -17,6 +17,7 @@ else:
 
 
 def next_card():
+    """Get the next card in the list of words to learn."""
     global current_card, flip_timer
     window.after_cancel(flip_timer)
     current_card = random.choice(to_learn)
