@@ -8,6 +8,7 @@ FINISH_LINE_Y = 280
 class Player(Turtle):
     """This class is responsible for creating the player object."""
     def __init__(self):
+        """This method initializes the player object."""
         super().__init__()
         self.shape('turtle')
         self.penup()
