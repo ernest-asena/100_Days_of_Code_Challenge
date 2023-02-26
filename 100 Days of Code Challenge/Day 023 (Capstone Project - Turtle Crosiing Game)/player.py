@@ -20,6 +20,7 @@ class Player(Turtle):
         self.forward(MOVE_DISTANCE)
 
     def go_to_start(self):
+        """This method moves the player object to the starting position."""
         self.goto(STARTING_POSITION)
 
     def is_at_finish_line(self):
