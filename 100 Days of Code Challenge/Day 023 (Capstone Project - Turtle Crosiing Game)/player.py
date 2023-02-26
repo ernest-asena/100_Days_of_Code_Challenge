@@ -24,6 +24,7 @@ class Player(Turtle):
         self.goto(STARTING_POSITION)
 
     def is_at_finish_line(self):
+        """This method checks if the player object has reached the finish line."""
         if self.ycor() > FINISH_LINE_Y:
             return True
         else:
