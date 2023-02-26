@@ -35,6 +35,7 @@ def flip_card():
 
 
 def is_known():
+    """Remove the current card from the list of words to learn."""
     to_learn.remove(current_card)
     print(len(to_learn))
     data = pandas.DataFrame(to_learn)
