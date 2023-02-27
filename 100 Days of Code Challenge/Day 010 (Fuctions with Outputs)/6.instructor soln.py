@@ -30,6 +30,7 @@ operations = {
 
 
 def calculator():
+    """Simple calculator function"""
     print(logo)
 
     num1 = float(input("What's the first number?: "))
