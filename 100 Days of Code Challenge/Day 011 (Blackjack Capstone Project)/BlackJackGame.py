@@ -85,6 +85,7 @@ def compare(user_score, computer_score):
 
 
 def play_game():
+    """Play a game of Blackjack"""
     print(logo)
 
     # Hint 5: Deal the user and computer 2 cards each using deal_card()
