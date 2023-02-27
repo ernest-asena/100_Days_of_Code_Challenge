@@ -2,6 +2,7 @@ from calcart import logo
 
 
 def add(n1, n2):
+    """Adds two numbers together"""
     return n1 + n2
 
 
