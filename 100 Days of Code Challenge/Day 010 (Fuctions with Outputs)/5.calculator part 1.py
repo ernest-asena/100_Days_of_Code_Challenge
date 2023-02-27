@@ -12,6 +12,7 @@ def subtract(n1, n2):
 
 
 def divide(n1, n2):
+    """Divides two numbers"""
     return n1 / n2
 
 
