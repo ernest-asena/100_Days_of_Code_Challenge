@@ -62,6 +62,7 @@ def edit():
 
 @app.route("/delete")
 def delete():
+    """Delete a record from the database."""
     book_id = request.args.get('id')
 
     # DELETE A RECORD BY ID
