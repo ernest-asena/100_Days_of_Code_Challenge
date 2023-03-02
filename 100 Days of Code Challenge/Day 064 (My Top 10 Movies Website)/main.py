@@ -25,6 +25,7 @@ db = SQLAlchemy(app)
 
 ##CREATE TABLE
 class Movie(db.Model):
+    """Create a movie table"""
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(250), unique=True, nullable=False)
     year = db.Column(db.Integer, nullable=False)
