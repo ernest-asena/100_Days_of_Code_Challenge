@@ -24,7 +24,7 @@ db.create_all()
 
 @app.route('/')
 def home():
-    # READ ALL RECORDS
+    """Read all records and display them in the home page."""
     all_books = db.session.query(Book).all()
     return render_template("index.html", books=all_books)
 
