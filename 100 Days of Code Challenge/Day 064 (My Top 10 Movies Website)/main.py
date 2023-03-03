@@ -96,6 +96,7 @@ def find_movie():
 
 @app.route("/edit", methods=["GET", "POST"])
 def rate_movie():
+    """Edit a movie's rating and review."""
     form = RateMovieForm()
     movie_id = request.args.get("id")
     movie = Movie.query.get(movie_id)
