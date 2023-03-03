@@ -40,6 +40,7 @@ db.create_all()
 
 
 class FindMovieForm(FlaskForm):
+    """Form for adding movies."""
     title = StringField("Movie Title", validators=[DataRequired()])
     submit = SubmitField("Add Movie")
 
