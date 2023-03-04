@@ -39,6 +39,7 @@ def home():
 
 @app.route('/register', methods=["GET", "POST"])
 def register():
+    """Register page route"""
     if request.method == "POST":
 
         if User.query.filter_by(email=request.form.get('email')).first():
