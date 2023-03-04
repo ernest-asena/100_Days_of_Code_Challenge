@@ -33,6 +33,7 @@ class User(UserMixin, db.Model):
 
 @app.route('/')
 def home():
+    """Home page route"""
     return render_template("index.html", logged_in=current_user.is_authenticated)
 
 
