@@ -15,6 +15,7 @@ login_manager.init_app(app)
 
 @login_manager.user_loader
 def load_user(user_id):
+    """Create user loader function for flask-login"""
     return User.query.get(int(user_id))
 
 
