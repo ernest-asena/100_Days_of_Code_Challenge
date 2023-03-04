@@ -67,6 +67,7 @@ def register():
 
 @app.route('/login', methods=["GET", "POST"])
 def login():
+    """Login page route"""
     if request.method == "POST":
         email = request.form.get('email')
         password = request.form.get('password')
