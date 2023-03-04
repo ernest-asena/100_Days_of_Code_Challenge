@@ -34,6 +34,7 @@ class BlogPost(db.Model):
 
 # WTForm
 class CreatePostForm(FlaskForm):
+    """Create a form for adding new blog posts."""
     title = StringField("Blog Post Title", validators=[DataRequired()])
     subtitle = StringField("Subtitle", validators=[DataRequired()])
     author = StringField("Your Name", validators=[DataRequired()])
