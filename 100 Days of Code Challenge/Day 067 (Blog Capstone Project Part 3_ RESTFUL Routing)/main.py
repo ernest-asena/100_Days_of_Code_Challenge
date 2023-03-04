@@ -45,6 +45,7 @@ class CreatePostForm(FlaskForm):
 
 @app.route('/')
 def get_all_posts():
+    """Get all blog posts from the database and display them on the home page."""
     posts = BlogPost.query.all()
     return render_template("index.html", all_posts=posts)
 
