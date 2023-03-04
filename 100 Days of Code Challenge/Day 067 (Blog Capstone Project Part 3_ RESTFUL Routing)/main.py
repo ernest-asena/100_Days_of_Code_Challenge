@@ -90,6 +90,7 @@ def add_new_post():
 
 @app.route("/edit-post/<int:post_id>", methods=["GET", "POST"])
 def edit_post(post_id):
+    """Edit a blog post in the database and display it on the home page."""
     post = BlogPost.query.get(post_id)
     edit_form = CreatePostForm(
         title=post.title,
