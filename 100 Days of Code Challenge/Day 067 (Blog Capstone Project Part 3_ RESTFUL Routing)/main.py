@@ -21,6 +21,7 @@ db = SQLAlchemy(app)
 
 # CONFIGURE TABLE
 class BlogPost(db.Model):
+    """Create a blog post table"""
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(250), unique=True, nullable=False)
     subtitle = db.Column(db.String(250), nullable=False)
