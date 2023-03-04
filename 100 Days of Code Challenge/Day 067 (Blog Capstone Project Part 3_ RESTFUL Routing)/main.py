@@ -71,6 +71,7 @@ def contact():
 
 @app.route("/new-post", methods=["GET", "POST"])
 def add_new_post():
+    """Add a new blog post to the database and display it on the home page."""
     form = CreatePostForm()
     if form.validate_on_submit():
         new_post = BlogPost(
