@@ -65,6 +65,7 @@ def about():
 
 @app.route("/contact")
 def contact():
+    """Display the contact page."""
     return render_template("contact.html")
 
 
