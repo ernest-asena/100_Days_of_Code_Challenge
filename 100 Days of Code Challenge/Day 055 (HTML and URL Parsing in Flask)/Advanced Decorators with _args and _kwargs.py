@@ -8,6 +8,7 @@ class User:
 def is_authenticated_decorator(function):
     """decorator to check if user is logged in"""
     def wrapper(*args, **kwargs):
+        """wrapper function"""
         if args[0].is_logged_in == True:
             function(args[0])
 
