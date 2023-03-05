@@ -17,7 +17,7 @@ def is_authenticated_decorator(function):
 
 @is_authenticated_decorator
 def create_blog_post(user):
-    """enable user to create blog"""
+    """enable logged in user to create blog"""
     print(f"This is {user.name}'s new blog post.")
 
 
