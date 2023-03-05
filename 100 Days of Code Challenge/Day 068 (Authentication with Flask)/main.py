@@ -104,6 +104,7 @@ def logout():
 @app.route('/download')
 @login_required
 def download():
+    """Download document route"""
     # return send_from_directory('static', filename="files/cheat_sheet.pdf")
     return send_from_directory('static', path='static/files', filename="files/cheat_sheet.pdf")
 
