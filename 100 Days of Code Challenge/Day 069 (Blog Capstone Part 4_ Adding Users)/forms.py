@@ -15,6 +15,7 @@ class CreatePostForm(FlaskForm):
 
 
 class RegisterForm(FlaskForm):
+    """Create a registration form."""
     email = StringField("Email", validators=[DataRequired()])
     password = PasswordField("Password", validators=[DataRequired()])
     name = StringField("Name", validators=[DataRequired()])
