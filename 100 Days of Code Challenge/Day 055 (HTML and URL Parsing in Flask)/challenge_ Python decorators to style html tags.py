@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 
 def make_bold(function):
+    """Wraps the function in <b> tags"""
     def wrapper():
         return "<b>" + function() + "</b>"
 
