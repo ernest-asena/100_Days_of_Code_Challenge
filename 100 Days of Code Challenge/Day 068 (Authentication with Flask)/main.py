@@ -90,6 +90,7 @@ def login():
 @app.route('/secrets')
 @login_required
 def secrets():
+    """Secrets page route"""
     print(current_user.name)
     return render_template("secrets.html", name=current_user.name, logged_in=True)
 
