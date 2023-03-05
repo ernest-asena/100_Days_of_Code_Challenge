@@ -23,6 +23,7 @@ class RegisterForm(FlaskForm):
 
 
 class LoginForm(FlaskForm):
+    """Create a login form."""
     email = StringField("Email", validators=[DataRequired()])
     password = PasswordField("Password", validators=[DataRequired()])
     submit = SubmitField("Let Me In!")
