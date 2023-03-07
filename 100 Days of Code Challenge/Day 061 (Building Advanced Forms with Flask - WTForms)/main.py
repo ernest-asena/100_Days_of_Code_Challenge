@@ -25,6 +25,7 @@ def home():
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    """Login page."""
     login_form = LoginForm()
     if login_form.validate_on_submit():
         if login_form.email.data == "admin@email.com" and login_form.password.data == "12345678":
