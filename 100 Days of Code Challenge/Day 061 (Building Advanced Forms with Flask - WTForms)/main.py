@@ -19,6 +19,7 @@ Bootstrap(app)
 
 @app.route("/")
 def home():
+    """Home page."""""
     return render_template("index.html")
 
 
