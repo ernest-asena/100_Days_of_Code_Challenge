@@ -62,6 +62,7 @@ class QuizInterface:
         self.give_feedback(is_right)
 
     def give_feedback(self, is_right):
+        """Give the user feedback on their answer."""
         if is_right:
             self.canvas.config(bg="green")
         else:
