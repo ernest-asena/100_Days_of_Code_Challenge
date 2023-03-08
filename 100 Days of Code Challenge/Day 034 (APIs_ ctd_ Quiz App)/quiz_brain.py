@@ -1,6 +1,4 @@
 import html
-
-
 class QuizBrain:
     """This class is responsible for keeping track of the score and the question number."""
     def __init__(self, q_list):
