@@ -53,6 +53,7 @@ class QuizInterface:
             self.false_button.config(state="disabled")
 
     def true_pressed(self):
+        """Check if the user got the question right and give feedback."""
         self.give_feedback(self.quiz.check_answer("True"))
 
     def false_pressed(self):
