@@ -30,6 +30,7 @@ weather_slice = weather['hourly'][:12]
 
 
 def send_msg():
+    """Send a message to my phone number"""
     client.messages.create(
         to=config.MY_PHONE_NO,
         from_=config.MY_TWILIO_PHONE,
