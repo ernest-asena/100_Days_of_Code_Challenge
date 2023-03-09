@@ -8,7 +8,7 @@ TWILIO_VERIFIED_NUMBER = config.TWILIO_VERIFIED_PHONE_TWO
 
 
 class NotificationManager:
-
+    """This class is responsible for sending notifications with the deal flight details."""
     def __init__(self):
         self.client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
