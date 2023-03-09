@@ -10,6 +10,7 @@ SHEETY_USERS_ENDPOINT = F'https://api.sheety.co/{config.SHEETY_USERS_API}/flight
 class DataManager:
     """This class is responsible for talking to the Google Sheet."""
     def __init__(self):
+        """Initialize the class with the Google Sheet data."""
         self.destination_data = {}
 
     def get_destination_data(self):
