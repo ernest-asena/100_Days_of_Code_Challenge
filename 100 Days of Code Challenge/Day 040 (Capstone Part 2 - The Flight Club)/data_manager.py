@@ -35,6 +35,7 @@ class DataManager:
             print(response.text)
 
     def get_customer_emails(self):
+        """Get the customer emails from the Google Sheet."""
         customers_endpoint = SHEETY_USERS_ENDPOINT
         response = requests.get(url=customers_endpoint)
         data = response.json()
