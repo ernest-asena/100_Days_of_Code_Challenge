@@ -20,6 +20,7 @@ class FlightSearch:
         return code
 
     def check_flights(self, origin_city_code, destination_city_code, from_time, to_time):
+        """Returns flight data for a specific flight."""
         headers = {"apikey": TEQUILA_API_KEY}
         query = {
             "fly_from": origin_city_code,
