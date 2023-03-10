@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    """Home page with login form"""
     return render_template("index.html")
 
 
