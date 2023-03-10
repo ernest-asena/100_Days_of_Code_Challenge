@@ -16,6 +16,7 @@ def get_all_posts():
 
 @app.route("/post/<int:index>")
 def show_post(index):
+    """Show post with the corresponding id, like /post/1, /post/2, etc."""
     requested_post = None
     for blog_post in posts:
         if blog_post["id"] == index:
