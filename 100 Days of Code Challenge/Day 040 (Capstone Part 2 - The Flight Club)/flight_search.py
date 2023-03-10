@@ -8,7 +8,7 @@ TEQUILA_API_KEY = config.TEQUILA_API_KEY
 
 
 class FlightSearch:
-
+    """This class is responsible for talking to the Flight Search API."""
     def get_destination_code(self, city_name):
         location_endpoint = f"{TEQUILA_ENDPOINT}/locations/query"
         headers = {"apikey": TEQUILA_API_KEY}
