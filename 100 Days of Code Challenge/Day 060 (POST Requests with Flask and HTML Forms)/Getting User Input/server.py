@@ -10,6 +10,7 @@ def home():
 
 @app.route("/login", methods=["POST"])
 def receive_data():
+    """Receive data from the form and display it on the page."""
     name = request.form["username"]
     password = request.form["password"]
     return f"<h1>Name: {name}, Password: {password}</h1>"
