@@ -27,6 +27,7 @@ class NotificationManager:
         print(message.sid)
 
     def send_emails(self, emails, message, google_flight_link):
+        """Send emails with the deal flight details."""
         with smtplib.SMTP(MAIL_PROVIDER_SMTP_ADDRESS) as connection:
             connection.starttls()
             connection.login(MY_EMAIL, MY_PASSWORD)
