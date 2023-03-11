@@ -7,6 +7,7 @@ class QuizBrain:
         self.question_list = q_list
 
     def still_has_questions(self):
+        """Returns True if there are still questions left in the list, False if not."""
         return self.question_number < len(self.question_list)
 
     def next_question(self):
