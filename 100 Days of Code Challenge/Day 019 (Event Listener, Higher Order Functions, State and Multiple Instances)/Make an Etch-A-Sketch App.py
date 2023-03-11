@@ -3,6 +3,7 @@ from turtle import Turtle, Screen
 tim = Turtle()
 
 def forwards():
+    """Moves the turtle forward by 10 units"""
     tim.forward(10)
 def backwards():
     tim.backward(10)
