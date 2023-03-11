@@ -11,6 +11,7 @@ class QuizBrain:
         return self.question_number < len(self.question_list)
 
     def next_question(self):
+        """Displays the next question and checks if the answer is correct."""
         current_question = self.question_list[self.question_number]
         self.question_number += 1
         user_answer=input(f"Q.{self.question_number}: {current_question.text}.\nTRUE/FALSE: ")
