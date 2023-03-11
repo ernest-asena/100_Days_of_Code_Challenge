@@ -32,6 +32,7 @@ def about():
 
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
+    """Contact page with a contact form"""
     if request.method == "POST":
         data = request.form
         data = request.form
