@@ -18,6 +18,7 @@ def random_color():
 
 
 def draw_spirograph(size_of_gap):
+    """Draws a spirograph with a gap of size_of_gap degrees"""
     for _ in range(int(360 / size_of_gap)):
         tim.color(random_color())
         tim.circle(100)
