@@ -12,6 +12,7 @@ def right():
     """turn the turtle right by 10 degrees"""
     tim.right(10)
 def left():
+    """turn the turtle left by 10 degrees"""
     tim.left(10)
 def clear():
     tim.clear()
