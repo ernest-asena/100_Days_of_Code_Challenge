@@ -39,6 +39,7 @@ def our_snake(snake_block, snake_list):
 
 
 def message(msg, color):
+    """Displays the message"""
     mesg = font_style.render(msg, True, color)
     dis.blit(mesg, [dis_width / 6, dis_height / 3])
 
