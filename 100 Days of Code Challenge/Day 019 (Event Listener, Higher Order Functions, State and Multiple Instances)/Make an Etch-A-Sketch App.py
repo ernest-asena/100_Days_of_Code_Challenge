@@ -6,6 +6,7 @@ def forwards():
     """Moves the turtle forward by 10 units"""
     tim.forward(10)
 def backwards():
+    """move the turtle backwards by 10 units"""
     tim.backward(10)
 def right():
     tim.right(10)
