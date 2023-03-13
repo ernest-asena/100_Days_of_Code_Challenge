@@ -45,6 +45,7 @@ def message(msg, color):
 
 
 def gameLoop():
+    """Main game loop"""
     game_over = False
     game_close = False
 
