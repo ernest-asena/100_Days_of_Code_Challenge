@@ -52,6 +52,7 @@ score = 0
 
 # displaying Score function
 def show_score(choice, color, font, size):
+    """displays score on screen"""
     # creating font object score_font
     score_font = pygame.font.SysFont(font, size)
 
