@@ -7,6 +7,7 @@
 class Animal:
     """Base class for all animals."""
     def __init__(self):
+        """Initialize class attributes."""
         self.num_eyes = 2
 
     def breathe(self):
