@@ -11,6 +11,7 @@ class Animal:
         self.num_eyes = 2
 
     def breathe(self):
+        """Prints a message about breathing."""
         print('Inhale, Exhale.')
 
 
