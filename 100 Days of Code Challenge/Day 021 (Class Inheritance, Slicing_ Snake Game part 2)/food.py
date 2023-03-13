@@ -3,6 +3,7 @@ import random
 
 
 class Food(Turtle):
+    """food class"""
     def __init__(self):
         super(Food, self).__init__()
 
