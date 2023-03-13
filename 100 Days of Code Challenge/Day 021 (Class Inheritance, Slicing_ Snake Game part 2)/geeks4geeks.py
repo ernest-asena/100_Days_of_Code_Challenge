@@ -70,6 +70,7 @@ def show_score(choice, color, font, size):
 
 # game over function
 def game_over():
+    """displays game over on screen"""
     # creating font object my_font
     my_font = pygame.font.SysFont('times new roman', 50)
 
