@@ -5,6 +5,7 @@
 # Child class is the class that inherits from another class, also called derived class.
 
 class Animal:
+    """Base class for all animals."""
     def __init__(self):
         self.num_eyes = 2
 
