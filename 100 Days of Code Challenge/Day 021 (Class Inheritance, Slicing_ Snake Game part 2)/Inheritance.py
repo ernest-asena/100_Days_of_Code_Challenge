@@ -62,5 +62,6 @@ class Student(Person):
         self.graduationyear = year
 
     def welcome(self):
+        """Prints a welcome message for the student."""
         print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
 
