@@ -56,6 +56,7 @@ x.printname()
 
 
 class Student(Person):
+    """Base class for all students."""
     def __init__(self, fname, lname, year):
         super().__init__(fname, lname)
         self.graduationyear = year
