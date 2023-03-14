@@ -27,6 +27,7 @@ class Fish(Animal):
         print('Breathing only under water.')
 
     def swim(self):
+        """Prints a message about swimming."""
         print('Moving in Water.')
 
 
