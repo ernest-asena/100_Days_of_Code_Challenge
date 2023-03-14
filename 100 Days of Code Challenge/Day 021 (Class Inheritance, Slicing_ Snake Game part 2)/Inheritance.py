@@ -40,6 +40,7 @@ nemo.breathe()
 class Person:
     """Base class for all persons."""
     def __init__(self, fname, lname):
+        """Initialize class attributes."""
         self.firstname = fname
         self.lastname = lname
 
