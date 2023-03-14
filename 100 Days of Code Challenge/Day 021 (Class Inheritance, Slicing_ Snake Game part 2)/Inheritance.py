@@ -22,6 +22,7 @@ class Fish(Animal):
         super().__init__()
 
     def breathe(self):
+        """Override the breathe method from the parent class."""
         super(Fish, self).breathe()
         print('Breathing only under water.')
 
