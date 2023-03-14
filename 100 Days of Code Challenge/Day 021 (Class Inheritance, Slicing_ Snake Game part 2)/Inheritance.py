@@ -16,6 +16,7 @@ class Animal:
 
 
 class Fish(Animal):
+    """Base class for fish"""
     def __init__(self):
         super().__init__()
 
