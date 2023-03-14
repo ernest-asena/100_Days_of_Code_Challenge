@@ -38,6 +38,7 @@ nemo.breathe()
 # Create a class named Person, with firstname and lastname properties, and a printname method:
 
 class Person:
+    """Base class for all persons."""
     def __init__(self, fname, lname):
         self.firstname = fname
         self.lastname = lname
