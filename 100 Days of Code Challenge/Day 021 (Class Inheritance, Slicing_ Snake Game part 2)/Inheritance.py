@@ -45,6 +45,7 @@ class Person:
         self.lastname = lname
 
     def printname(self):
+        """Prints the name of the person."""
         print(self.firstname, self.lastname)
 
 
