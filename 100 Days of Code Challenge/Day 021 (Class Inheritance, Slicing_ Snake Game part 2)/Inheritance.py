@@ -18,6 +18,7 @@ class Animal:
 class Fish(Animal):
     """Base class for fish"""
     def __init__(self):
+        """initialize class"""
         super().__init__()
 
     def breathe(self):
