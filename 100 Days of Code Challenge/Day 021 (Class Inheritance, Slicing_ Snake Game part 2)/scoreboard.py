@@ -24,6 +24,7 @@ class Scoreboard(Turtle):
         self.write(f"Score: {self.score} High Score: {self.high_score}", align=ALIGNMENT, font=FONT)
 
     def reset(self):
+        """Reset scoreboard."""
         if self.score > self.high_score:
             self.high_score = self.score
             with open('highscore.txt', mode='w') as h_score:
