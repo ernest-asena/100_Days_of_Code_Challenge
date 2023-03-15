@@ -33,6 +33,7 @@ class Scoreboard(Turtle):
         self.update_scoreboard()
 
     def increase_score(self):
+        """Increase score by 1."""
         self.score += 1
         self.clear()
         self.update_scoreboard()
