@@ -111,6 +111,7 @@ def go_right():
 
 
 def go_down():
+    """Change snake direction to down."""
     global snake_direction
     if snake_direction != "up":
         snake_direction = "down"
