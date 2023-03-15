@@ -9,7 +9,7 @@ LEFT = 180
 
 
 class Snake:
-
+    """Snake class."""
     def __init__(self):
         self.segments = []
         self.create_snake()
