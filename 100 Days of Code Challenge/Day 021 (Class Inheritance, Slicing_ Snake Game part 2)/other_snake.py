@@ -27,6 +27,7 @@ def reset():
 
 
 def move_snake():
+    """Move snake forward one segment."""
     global snake_direction
 
     #  Next position for head of snake.
