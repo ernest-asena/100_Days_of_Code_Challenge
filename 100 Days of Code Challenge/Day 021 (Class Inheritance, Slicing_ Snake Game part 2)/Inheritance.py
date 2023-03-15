@@ -64,4 +64,3 @@ class Student(Person):
     def welcome(self):
         """Prints a welcome message for the student."""
         print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
-

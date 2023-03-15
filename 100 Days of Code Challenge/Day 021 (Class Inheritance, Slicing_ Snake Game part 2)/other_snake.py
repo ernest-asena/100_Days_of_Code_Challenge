@@ -16,6 +16,7 @@ offsets = {
 
 
 def reset():
+    """Reset snake, food and screen."""
     global snake, snake_direction, food_pos, pen
     snake = [[0, 0], [0, 20], [0, 40], [0, 50], [0, 60]]
     snake_direction = "up"
