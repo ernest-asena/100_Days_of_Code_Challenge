@@ -97,6 +97,7 @@ def get_distance(pos1, pos2):
 
 
 def go_up():
+    """Change snake direction to up."""
     global snake_direction
     if snake_direction != "down":
         snake_direction = "up"
