@@ -72,6 +72,7 @@ def move_snake():
 
 
 def food_collision():
+    """Check if snake has collided with food."""
     global food_pos
     if get_distance(snake[-1], food_pos) < 20:
         food_pos = get_random_food_pos()
