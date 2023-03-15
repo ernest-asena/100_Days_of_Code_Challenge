@@ -89,6 +89,7 @@ def get_random_food_pos():
 
 
 def get_distance(pos1, pos2):
+    """Get distance between two positions."""
     x1, y1 = pos1
     x2, y2 = pos2
     distance = ((y2 - y1) ** 2 + (x2 - x1) ** 2) ** 0.5
