@@ -4,6 +4,7 @@ from turtle import Turtle
 class Ball(Turtle):
     """Ball definition"""
     def __init__(self):
+        """initialize ball"""
         super().__init__()
         self.color('white')
         self.shape('circle')
