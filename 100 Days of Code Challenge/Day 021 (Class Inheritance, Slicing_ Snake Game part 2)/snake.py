@@ -42,6 +42,7 @@ class Snake:
         self.add_segment(self.segments[-1].position())
 
     def move(self):
+        """move snake"""
         for seg_num in range(len(self.segments) - 1, 0, -1):
             new_x = self.segments[seg_num - 1].xcor()
             new_y = self.segments[seg_num - 1].ycor()
