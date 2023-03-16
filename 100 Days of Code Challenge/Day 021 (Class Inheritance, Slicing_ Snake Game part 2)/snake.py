@@ -29,6 +29,7 @@ class Snake:
         self.segments.append(new_segment)
 
     def reset(self):
+        """reset snake"""
         for seg in self.segments:
             seg.goto(1000, 1000)
         self.segments.clear()
