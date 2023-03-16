@@ -16,6 +16,7 @@ class Snake:
         self.head = self.segments[0]
 
     def create_snake(self):
+        """fxn to create snake"""
         for position in STARTING_POSITIONS:
             self.add_segment(position)
 
