@@ -8,6 +8,7 @@ from Clearscreen import clear
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_pass():
+    """This function generates a random password"""
     """Generates a random password using letters, numbers and symbols."""
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
                'v',
