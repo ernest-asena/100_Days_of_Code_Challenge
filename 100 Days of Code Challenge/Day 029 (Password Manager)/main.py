@@ -51,6 +51,7 @@ def generate_pass():
 
 
 def save():
+    """This function saves the website, email and password to a file."""
     website = website_entry.get()
     email = username_entry.get()
     password = pass_entry.get()
