@@ -54,6 +54,7 @@ def start_timer():
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count):
+    """This function counts down the timer"""
     count_min = m.floor(count / 60)
     count_sec = count % 60
     if count_min < 10:
