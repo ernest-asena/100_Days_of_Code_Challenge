@@ -4,6 +4,7 @@ FONT = ("Courier", 24, "normal")
 
 
 class Scoreboard(Turtle):
+    """This class is responsible for keeping track of the score"""
     def __init__(self):
         super(Scoreboard, self).__init__()
         self.level = 1
