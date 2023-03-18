@@ -25,6 +25,7 @@ class CarManager:
             self.all_cars.append(new_car)
 
     def move_cars(self):
+        """This method moves the cars"""
         for car in self.all_cars:
             car.backward(self.car_speed)
 
