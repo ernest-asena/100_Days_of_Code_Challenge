@@ -20,6 +20,7 @@ class Scoreboard(Turtle):
         self.write(f"LEVEL: {self.level}", align='left', font=FONT)
 
     def increase_level(self):
+        """This method increases the level"""
         self.level += 1
         self.update_scoreboard()
 
