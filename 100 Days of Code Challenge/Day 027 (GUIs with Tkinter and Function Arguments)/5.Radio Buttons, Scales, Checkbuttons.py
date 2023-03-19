@@ -12,6 +12,7 @@ label.pack()
 
 #Buttons
 def action():
+    """Function to be called when button is pressed"""
     print("Do something")
 
 #calls action() when pressed
