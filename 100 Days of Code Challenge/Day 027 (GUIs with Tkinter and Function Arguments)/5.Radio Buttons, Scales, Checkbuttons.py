@@ -39,6 +39,7 @@ text.pack()
 
 #Spinbox
 def spinbox_used():
+    """Gets the current value in spinbox."""
     #gets the current value in spinbox.
     print(spinbox.get())
 spinbox = Spinbox(from_=0, to=10, width=5, command=spinbox_used)
