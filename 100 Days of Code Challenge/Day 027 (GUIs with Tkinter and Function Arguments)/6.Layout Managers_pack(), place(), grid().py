@@ -7,6 +7,7 @@ from tkinter import *
 
 
 def button_clicked():
+    """Function to be called when the button is clicked"""
     print("I got clicked")
     new_text = input.get()
     my_label.config(text=new_text)
