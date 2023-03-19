@@ -55,6 +55,7 @@ scale.pack()
 
 #Checkbutton
 def checkbutton_used():
+    """Prints 1 if On button checked, otherwise 0."""
     #Prints 1 if On button checked, otherwise 0.
     print(checked_state.get())
 #variable to hold on to checked state, 0 is off, 1 is on.
