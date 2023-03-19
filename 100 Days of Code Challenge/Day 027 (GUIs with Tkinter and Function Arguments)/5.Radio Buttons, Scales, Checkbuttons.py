@@ -48,6 +48,7 @@ spinbox.pack()
 #Scale
 #Called with current scale value.
 def scale_used(value):
+    """current scale value is passed to the function"""
     print(value)
 scale = Scale(from_=0, to=100, command=scale_used)
 scale.pack()
