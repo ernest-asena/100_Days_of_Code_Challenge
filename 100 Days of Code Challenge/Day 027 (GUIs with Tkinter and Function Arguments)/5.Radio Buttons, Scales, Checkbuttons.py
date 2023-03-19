@@ -66,6 +66,7 @@ checkbutton.pack()
 
 #Radiobutton
 def radio_used():
+    """Prints 1, 2, 3, or 4 depending on which radio button value is checked."""
     print(radio_state.get())
 #Variable to hold on to which radio button value is checked.
 radio_state = IntVar()
