@@ -27,6 +27,7 @@ km_label.grid(column=7, row=5)
 
 
 def miles_to_km():
+    """Convert miles to km"""
     mile = int(miles.get())
     km = round(mile * 1.609344, 2)
     result['text'] = km
