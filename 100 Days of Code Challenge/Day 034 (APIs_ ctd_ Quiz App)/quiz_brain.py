@@ -9,7 +9,7 @@ class QuizBrain:
         self.current_question = None
 
     def still_has_questions(self):
-        """Check if there are still questions left in the quiz."""
+        """Checks if there are still questions left in the quiz."""
         return self.question_number < len(self.question_list)
 
     def next_question(self):
