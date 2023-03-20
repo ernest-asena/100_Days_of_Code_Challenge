@@ -7,7 +7,7 @@ THEME_COLOR = "#375362"
 class QuizInterface:
     """This class is responsible for the UI of the quiz app."""
     def __init__(self, quiz_brain: QuizBrain):
-        """initialize the quiz interface"""
+        """initializes the quiz interface"""
         self.quiz = quiz_brain
 
         self.window = Tk()
