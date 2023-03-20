@@ -41,7 +41,7 @@ class QuizInterface:
         self.window.mainloop()
 
     def get_next_question(self):
-        """Get the next question from the quiz brain and display it on the screen."""
+        """Gets the next question from the quiz brain and display it on the screen."""
         self.canvas.config(bg="white")
         if self.quiz.still_has_questions():
             self.score_label.config(text=f"Score: {self.quiz.score}")
