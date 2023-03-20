@@ -8,6 +8,7 @@ SHEETY_PRICES_ENDPOINT = F'https://api.sheety.co/{config.SHEETY_PRICES_API}/flig
 class DataManager:
     """This class is responsible for talking to the Google Sheet."""
     def __init__(self):
+        """This method is called when you create a new DataManager object."""
         self.destination_data = {}
 
     def get_destination_data(self):
