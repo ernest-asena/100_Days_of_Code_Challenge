@@ -52,6 +52,7 @@ class InstaFollower:
             time.sleep(2)
 
     def follow(self):
+        """Follows all the followers of a given account"""
         all_buttons = self.driver.find_elements(By.CSS_SELECTOR, value="li button")
         for button in all_buttons:
             try:
