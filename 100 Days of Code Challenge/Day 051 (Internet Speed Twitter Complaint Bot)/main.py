@@ -15,6 +15,7 @@ TWITTER_PASS = config.TWITTER_PASS
 class InternetSpeedTwitterBot:
     """A bot that tweets at your internet provider when your internet speed is below the promised speed"""
     def __init__(self):
+        """Initializes the bot"""
         self.chrome_driver_path = '/Users/nesi/dvm/chromedriver'
         self.up = 10
         self.down = 5
