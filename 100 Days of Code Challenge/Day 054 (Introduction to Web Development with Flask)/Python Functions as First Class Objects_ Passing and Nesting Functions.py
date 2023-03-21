@@ -11,6 +11,7 @@ def subtract(n1, n2):
 
 
 def multiply(n1, n2):
+    """A function that multiplies two numbers"""
     return n1 * n2
 
 
