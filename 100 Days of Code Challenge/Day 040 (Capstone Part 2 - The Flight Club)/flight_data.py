@@ -3,7 +3,7 @@ class FlightData:
     def __init__(
             self, price, origin_city, origin_airport, destination_city, destination_airport, out_date, return_date,
             stop_overs=0, via_city=""):
-        """Initialize the class with the flight data."""
+        """Initializes the class with the flight data."""
         self.price = price
         self.origin_city = origin_city
         self.origin_airport = origin_airport
