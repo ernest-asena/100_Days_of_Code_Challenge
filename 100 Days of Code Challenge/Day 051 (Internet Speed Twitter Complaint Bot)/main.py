@@ -21,6 +21,7 @@ class InternetSpeedTwitterBot:
         self.down = 5
 
     def get_internet_speed(self):
+        """Gets the internet speed from fast.com"""
         service = Service(self.chrome_driver_path)
         driver = webdriver.Chrome(service=service)
         driver.get(url='https://www.fast.com/')
