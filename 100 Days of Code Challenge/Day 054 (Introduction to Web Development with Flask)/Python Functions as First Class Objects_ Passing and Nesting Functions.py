@@ -1,6 +1,7 @@
 # ********Day 54 Start**********
 # Functions can have inputs/functionality/output
 def add(n1, n2):
+    """A function that adds two numbers"""
     return n1 + n2
 
 
