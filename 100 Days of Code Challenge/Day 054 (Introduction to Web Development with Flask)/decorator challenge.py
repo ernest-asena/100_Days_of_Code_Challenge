@@ -9,6 +9,7 @@ print(current_time)
 def speed_calc_decorator(function):
     """Calculate the speed of a function"""
     def wrapper_function():
+        """Print the speed of a function"""
         start_time = time.time()
         function()
         end_time = time.time()
