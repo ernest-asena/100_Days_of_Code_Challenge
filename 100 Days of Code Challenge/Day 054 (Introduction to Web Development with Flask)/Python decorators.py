@@ -17,6 +17,7 @@ def delay_decorator(function):
 
 @delay_decorator
 def say_hello():
+    """A function that prints out 'Hello'"""
     print("Hello")
 
 
