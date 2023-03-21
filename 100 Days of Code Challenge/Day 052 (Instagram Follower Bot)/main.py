@@ -16,6 +16,7 @@ class InstaFollower:
         self.driver = webdriver.Chrome(service=self.service)
 
     def login(self):
+        """Logs in to Instagram"""
         self.driver.get(url='https://www.instagram.com/')
         time.sleep(20)
         mail_field = self.driver.find_element(By.XPATH, value='//*[@id="loginForm"]/div/div[1]/div/label/input')
