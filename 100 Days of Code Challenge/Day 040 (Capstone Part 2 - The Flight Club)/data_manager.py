@@ -21,7 +21,7 @@ class DataManager:
         return self.destination_data
 
     def update_destination_codes(self):
-        """Update the Google Sheet with the IATA codes."""
+        """Updates the Google Sheet with the IATA codes."""
         for city in self.destination_data:
             new_data = {
                 "price": {
