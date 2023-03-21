@@ -15,7 +15,7 @@ driver.get(url=jobs_url)
 sign_in_button = driver.find_element(By.XPATH, value='/html/body/div[1]/header/nav/div/a[2]')
 sign_in_button.click()
 
-time.sleep(2)
+time.sleep(3)
 email_field = driver.find_element(By.CSS_SELECTOR, value='#username')
 email_field.send_keys(config.LINKEDLIN_USERNAME)
 
