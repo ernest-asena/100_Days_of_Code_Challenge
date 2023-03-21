@@ -27,6 +27,7 @@ def fast_function():
 
 @speed_calc_decorator
 def slow_function():
+    """Print the speed of a slow function"""
     for i in range(100000000):
         i * i
 
