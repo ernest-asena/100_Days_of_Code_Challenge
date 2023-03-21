@@ -8,6 +8,7 @@ from selenium.common.exceptions import ElementClickInterceptedException
 
 
 class InstaFollower:
+    """A bot that follows the followers of a given account"""
     def __init__(self):
         self.chrome_driver_path = '/Users/nesi/dvm/chromedriver'
         self.service = Service(self.chrome_driver_path)
