@@ -14,7 +14,7 @@ class DataManager:
         self.destination_data = {}
 
     def get_destination_data(self):
-        """Get the data from the Google Sheet."""
+        """Gets the data from the Google Sheet."""
         response = requests.get(url=SHEETY_PRICES_ENDPOINT)
         data = response.json()
         self.destination_data = data["prices"]
