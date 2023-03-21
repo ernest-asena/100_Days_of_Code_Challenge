@@ -24,6 +24,7 @@ def say_hello():
 # With the @ syntactic sugar
 @delay_decorator
 def say_bye():
+    """A function that prints out 'Bye'"""
     print("Bye")
 
 
