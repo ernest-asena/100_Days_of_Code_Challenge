@@ -30,6 +30,7 @@ def say_bye():
 
 # Without the @ syntactic sugar
 def say_greeting():
+    """A function that prints out 'How are you?'"""
     print("How are you?")
 
 
