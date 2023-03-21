@@ -35,6 +35,7 @@ class InstaFollower:
         time.sleep(30)
 
     def find_followers(self):
+        """Finds the followers of a given account"""
         time.sleep(30)
         self.driver.get(f"https://www.instagram.com/{config.INSTAGRAM_TO_SEARCH}")
 
