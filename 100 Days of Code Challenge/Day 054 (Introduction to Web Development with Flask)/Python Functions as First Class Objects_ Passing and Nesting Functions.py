@@ -23,6 +23,7 @@ def divide(n1, n2):
 # Functions are first-class objects, can be passed around as arguments e.g. int/string/float etc.
 
 def calculate(calc_function, n1, n2):
+    """A function that calculates two numbers"""
     return calc_function(n1, n2)
 
 
