@@ -5,6 +5,7 @@ import time
 def delay_decorator(function):
     """A decorator function that delays the execution of another function by 2 seconds"""
     def wrapper_function():
+        """A wrapper function that delays the execution of another function by 2 seconds"""
         time.sleep(2)
         # Do something before
         function()
