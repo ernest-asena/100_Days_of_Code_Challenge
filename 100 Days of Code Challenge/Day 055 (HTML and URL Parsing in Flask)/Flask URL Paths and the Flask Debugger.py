@@ -11,6 +11,7 @@ def hello_world():
 
 @app.route('/bye')
 def bye():
+    """This is the goodbye page"""
     return "It is sad to see you leave. Hopefully we will reconnect soon."
 
 
