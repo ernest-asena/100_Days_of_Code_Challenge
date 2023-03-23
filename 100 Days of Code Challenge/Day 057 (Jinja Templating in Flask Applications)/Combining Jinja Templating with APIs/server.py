@@ -26,4 +26,4 @@ def guess(name):
     return render_template('guess.html', name=name, age=age, gender=gender)
 
 
-app.run(debug=True, host='0.0.0.0')
+app.run(debug=True, host='0.0.0.0', port=5002)
