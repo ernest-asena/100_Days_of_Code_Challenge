@@ -51,6 +51,7 @@ def outer_function():
     print("I'm outer")
 
     def nested_function():
+        """A function that is returned from another function"""
         print("I'm inner")
 
     return nested_function
