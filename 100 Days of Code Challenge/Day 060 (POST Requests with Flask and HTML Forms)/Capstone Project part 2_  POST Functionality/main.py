@@ -42,7 +42,7 @@ def contact():
 
 
 def send_email(name, email, phone, message):
-    """Send email to my email address"""
+    """Sends email to my email address"""
     email_message = f"Subject:New Message\n\nName: {name}\nEmail: {email}\nPhone: {phone}\nMessage:{message}"
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
