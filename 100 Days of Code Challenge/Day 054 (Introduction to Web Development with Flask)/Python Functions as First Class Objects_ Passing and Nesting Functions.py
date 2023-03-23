@@ -47,6 +47,7 @@ outer_function()
 
 # Functions can be returned from other functions
 def outer_function():
+    """A function that returns another function"""
     print("I'm outer")
 
     def nested_function():
