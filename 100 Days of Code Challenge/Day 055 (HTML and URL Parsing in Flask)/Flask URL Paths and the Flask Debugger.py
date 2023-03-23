@@ -24,6 +24,7 @@ def greet(name, number):
 # Creating variable paths and converting the path to a specified data type
 @app.route('/leaders/<leader>/<int:number>')
 def greet_leader(leader, number):
+    """This is the greeting page for the leaders"""
     return F"Greetings Leader. You are {number} today!"
 
 
