@@ -18,6 +18,7 @@ def home():
 
 @app.route('/guess/<name>')
 def guess(name):
+    """guess page"""
     gender_api = F'https://api.genderize.io?name={name}'
     age_url = F'https://api.agify.io?name={name}'
     age = requests.get(age_url).json()['age']
