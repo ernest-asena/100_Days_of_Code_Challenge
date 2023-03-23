@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    """Render website's home page."""
     year = datetime.datetime.now().year
     random_number = random.randint(99, 299)
     return render_template('index.html', num=random_number, cur_year=year)
