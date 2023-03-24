@@ -31,7 +31,7 @@ def home():
 
 @app.route("/add", methods=["GET", "POST"])
 def add():
-    """Create a new record in the database."""
+    """Creates a new record in the database."""
     if request.method == "POST":
         # CREATE RECORD
         new_book = Book(
