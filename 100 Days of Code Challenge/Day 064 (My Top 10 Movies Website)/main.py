@@ -77,7 +77,7 @@ def add_movie():
 
 @app.route("/find")
 def find_movie():
-    """Find a movie by searching the Movie Database"""
+    """Finds a movie by searching the Movie Database"""
     movie_api_id = request.args.get("id")
     if movie_api_id:
         movie_api_url = f"{MOVIE_DB_INFO_URL}/{movie_api_id}"
