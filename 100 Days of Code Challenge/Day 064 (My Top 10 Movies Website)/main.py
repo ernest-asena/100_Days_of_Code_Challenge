@@ -110,7 +110,7 @@ def rate_movie():
 
 @app.route("/delete")
 def delete_movie():
-    """Deleting a movie from the database."""
+    """Delete a movie from the database."""
     movie_id = request.args.get("id")
     movie = Movie.query.get(movie_id)
     db.session.delete(movie)
