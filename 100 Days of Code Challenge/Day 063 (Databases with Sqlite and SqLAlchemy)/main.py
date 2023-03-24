@@ -12,7 +12,7 @@ db = SQLAlchemy(app)
 
 # CREATE TABLE
 class Book(db.Model):
-    """Create a book table"""
+    """Creates a book table"""
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(250), unique=True, nullable=False)
     author = db.Column(db.String(250), nullable=False)
