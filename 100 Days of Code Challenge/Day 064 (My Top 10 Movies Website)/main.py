@@ -64,7 +64,7 @@ def home():
 
 @app.route("/add", methods=["GET", "POST"])
 def add_movie():
-    """Add a new movie to the database."""
+    """Adds a new movie to the database."""
     form = FindMovieForm()
     if form.validate_on_submit():
         movie_title = form.title.data
