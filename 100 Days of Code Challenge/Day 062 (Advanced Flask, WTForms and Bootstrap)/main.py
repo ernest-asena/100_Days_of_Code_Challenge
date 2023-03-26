@@ -11,7 +11,7 @@ Bootstrap(app)
 
 
 class CafeForm(FlaskForm):
-    """Create a form to add new cafes."""
+    """Creates a form to add new cafes."""
     cafe = StringField('Cafe name', validators=[DataRequired()])
     location = StringField("Cafe Location on Google Maps (URL)", validators=[DataRequired(), URL()])
     open = StringField("Opening Time e.g. 8AM", validators=[DataRequired()])
