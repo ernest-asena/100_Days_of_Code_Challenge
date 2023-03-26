@@ -47,7 +47,7 @@ def add():
 
 @app.route("/edit", methods=["GET", "POST"])
 def edit():
-    """Updates a record in the database."""
+    """Update a record in the database."""
     if request.method == "POST":
         # UPDATE RECORD
         book_id = request.form["id"]
