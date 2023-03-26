@@ -47,7 +47,7 @@ def add_cafe():
 
 @app.route('/cafes')
 def cafes():
-    """Render website's cafes page."""
+    """Renders website's cafes page."""
     with open('cafe-data.csv', newline='') as csv_file:
         csv_data = csv.reader(csv_file, delimiter=',')
         list_of_rows = []
