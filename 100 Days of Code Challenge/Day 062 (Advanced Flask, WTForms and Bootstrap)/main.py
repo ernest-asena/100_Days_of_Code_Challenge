@@ -30,7 +30,7 @@ def home():
 
 @app.route('/add', methods=["GET", "POST"])
 def add_cafe():
-    """Add a new cafe to the list."""
+    """Adds a new cafe to the list."""
     form = CafeForm()
     if form.validate_on_submit():
         with open("cafe-data.csv", mode="a") as csv_file:
