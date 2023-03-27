@@ -19,4 +19,5 @@ question_data = [
     {"text": "The first ever Premier League game was played on 15 August 1992.", "answer": "True"},
     {"text": "Arsene Wenger is the only manager to have won the Premier League three times.", "answer": "False"},
     {"text": "Arsene Wenger came to Arsenal in 1996.", "answer": "True"},
+    {"text": "Python was the first programming language I learnt.", "answer": "False"},
 ]
