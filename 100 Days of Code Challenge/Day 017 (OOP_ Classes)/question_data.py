@@ -21,4 +21,5 @@ question_data = [
     {"text": "Arsene Wenger came to Arsenal in 1996.", "answer": "True"},
     {"text": "Python was the first programming language I learnt.", "answer": "False"},
     {"text:": "I love Scarlett Johansson.", "answer": "True"},
+    {"text": "My code is cooked like the meth in Breaking Bad.", "answer": "True"},
 ]
