@@ -18,4 +18,5 @@ question_data = [
     {"text": "Arsenal are the only team to have won the Premier League without losing a game.", "answer": "True"},
     {"text": "The first ever Premier League game was played on 15 August 1992.", "answer": "True"},
     {"text": "Arsene Wenger is the only manager to have won the Premier League three times.", "answer": "False"},
+    {"text": "Arsene Wenger came to Arsenal in 1996.", "answer": "True"},
 ]
