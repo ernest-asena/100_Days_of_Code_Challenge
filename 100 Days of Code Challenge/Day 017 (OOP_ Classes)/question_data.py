@@ -16,4 +16,5 @@ question_data = [
     {"text": "Ernest Asena was the first data scientist in the Luhya Community.", "answer": "False"},
     {"text": "Arteta is the best coach in the Premier League.", "answer": "True"},
     {"text": "Arsenal are the only team to have won the Premier League without losing a game.", "answer": "True"},
+    {"text": "The first ever Premier League game was played on 15 August 1992.", "answer": "True"},
 ]
