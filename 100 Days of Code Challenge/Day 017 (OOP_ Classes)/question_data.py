@@ -14,6 +14,6 @@ question_data = [
     {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
     {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"},
     {"text": "Ernest Asena was the first data scientist in the Luhya Community.", "answer": "False"},
-    {"text": "Areteta is the best coach in the Premier League.", "answer": "True"},
+    {"text": "Arteta is the best coach in the Premier League.", "answer": "True"},
     {"text": "Arsenal are the only team to have won the Premier League without losing a game.", "answer": "True"},
 ]
