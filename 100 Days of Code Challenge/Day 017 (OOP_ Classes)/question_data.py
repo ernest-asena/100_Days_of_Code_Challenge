@@ -13,5 +13,6 @@ question_data = [
     {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
     {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
     {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"},
-    {"text": "Ernest Asena was the first data scientist in the Luhya Community.", "answer": "True"},
+    {"text": "Ernest Asena was the first data scientist in the Luhya Community.", "answer": "False"},
+    {"text": "Areteta is the best coach in the Premier League.", "answer": "True"},
 ]
