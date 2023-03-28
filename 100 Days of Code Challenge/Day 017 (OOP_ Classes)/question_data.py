@@ -23,4 +23,5 @@ question_data = [
     {"text:": "I love Scarlett Johansson.", "answer": "True"},
     {"text": "My code is cooked like the meth in Breaking Bad.", "answer": "True"},
     {"text": "The only issue with my code is that it is not working.", "answer": "False"},
+    {"text": "My first mentoor in data science was Thuso Simon.", "answer": "True"},
 ]
