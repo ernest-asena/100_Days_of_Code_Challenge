@@ -1,7 +1,7 @@
 class QuizBrain:
     """This class is responsible for keeping track of the score and the question number."""
     def __init__(self, q_list):
-        """Initializes the question number and the score."""
+        """Initialize the question number and the score."""
         self.question_number = 0
         self.score = 0
         self.question_list = q_list
