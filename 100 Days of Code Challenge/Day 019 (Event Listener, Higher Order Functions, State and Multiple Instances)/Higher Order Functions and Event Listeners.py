@@ -7,7 +7,7 @@ tim = Turtle()
 
 
 def move_forward():
-    """Moves the turtle forward by 10 units"""
+    """Move the turtle forward by 10 units"""
     tim.forward(10)
 
 
