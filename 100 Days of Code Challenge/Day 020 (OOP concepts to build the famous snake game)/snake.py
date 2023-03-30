@@ -33,7 +33,7 @@ class Snake:
         self.head.forward(MOVE_DISTANCE)
 
     def up(self):
-        """Move the snake up"""
+        """Moves the snake up"""
         if self.head.heading() != DOWN:
             self.head.setheading(UP)
 
