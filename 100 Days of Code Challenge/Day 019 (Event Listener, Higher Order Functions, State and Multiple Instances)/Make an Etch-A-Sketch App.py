@@ -15,7 +15,7 @@ def left():
     """turns the turtle left by 10 degrees"""
     tim.left(10)
 def clear():
-    """clears the screen and returns the turtle to the center"""
+    """clear the screen and returns the turtle to the center"""
     tim.clear()
     tim.penup()
     tim.home()
