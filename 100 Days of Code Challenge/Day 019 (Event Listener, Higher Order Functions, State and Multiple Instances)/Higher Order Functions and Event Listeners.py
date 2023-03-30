@@ -12,7 +12,7 @@ def move_forward():
 
 
 def turn_right():
-    """Turn the turtle right by 45 degrees"""
+    """Turns the turtle right by 45 degrees"""
     tim.right(45)
 
 
