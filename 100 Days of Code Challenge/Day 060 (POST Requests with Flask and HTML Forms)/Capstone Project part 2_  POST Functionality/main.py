@@ -26,7 +26,7 @@ def show_post(index):
 
 @app.route("/about")
 def about():
-    """About page with information about the blog"""
+    """About page"""
     return render_template("about.html")
 
 
