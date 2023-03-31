@@ -16,7 +16,7 @@ class Snake:
         self.head = self.segments[0]
 
     def create_snake(self):
-        """Create the snake body"""
+        """Creates the snake body"""
         for position in STARTING_POSITIONS:
             new_segment = Turtle('square')
             new_segment.color('white')
