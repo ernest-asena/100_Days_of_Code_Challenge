@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_all_posts():
-    """Home page with all blog posts"""
+    """Create home page with all blog posts"""
     return render_template("index.html", all_posts=posts)
 
 
