@@ -48,6 +48,6 @@ class Snake:
             self.head.setheading(LEFT)
 
     def right(self):
-        """Move the snake right"""
+        """Moves the snake right"""
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
