@@ -38,7 +38,7 @@ class Snake:
             self.head.setheading(UP)
 
     def down(self):
-        """Move the snake down"""
+        """Moves the snake down"""
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
 
