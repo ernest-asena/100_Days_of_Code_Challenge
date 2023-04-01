@@ -69,7 +69,7 @@ class InternetSpeedTwitterBot:
         passwd_field = driver.find_element(By.XPATH,
                                            value='//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/label/div/div[2]/div/input')
         passwd_field.send_keys(config.TWITTER_PASS)
-        time.sleep(6)
+        time.sleep(7)
 
         log_in_btn_final = driver.find_element(By.XPATH,
                                                value='//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div')
