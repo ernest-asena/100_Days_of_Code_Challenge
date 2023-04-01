@@ -79,7 +79,7 @@ class InternetSpeedTwitterBot:
         new_tweet_btn = driver.find_element(By.XPATH,
                                             value='//*[@id="react-root"]/div/div/div[2]/header/div/div/div/div[1]/div[3]/a')
         new_tweet_btn.click()
-        time.sleep(10)
+        time.sleep(11)
 
         new_tweet_field = driver.find_element(By.XPATH,
                                               value='//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div/div[1]/div/div/div/div/div[2]/div[1]/div/div/div/div/div/div/div/div/div/label/div[1]/div/div/div/div/div[2]/div')
