@@ -30,7 +30,7 @@ class InternetSpeedTwitterBot:
         return speed
 
     def tweet_at_provider(self):
-        """Tweet at your internet provider when your internet speed is below the promised speed"""
+        """Tweets at your internet provider when your internet speed is below the promised speed"""
         service = Service(self.chrome_driver_path)
         driver = webdriver.Chrome(service=service)
         driver.get(url='https://twitter.com/')
