@@ -74,7 +74,7 @@ class InternetSpeedTwitterBot:
         log_in_btn_final = driver.find_element(By.XPATH,
                                                value='//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div')
         log_in_btn_final.click()
-        time.sleep(6)
+        time.sleep(7)
 
         new_tweet_btn = driver.find_element(By.XPATH,
                                             value='//*[@id="react-root"]/div/div/div[2]/header/div/div/div/div[1]/div[3]/a')
