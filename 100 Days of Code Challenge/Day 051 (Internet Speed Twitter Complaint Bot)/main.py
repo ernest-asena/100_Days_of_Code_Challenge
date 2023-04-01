@@ -34,7 +34,7 @@ class InternetSpeedTwitterBot:
         service = Service(self.chrome_driver_path)
         driver = webdriver.Chrome(service=service)
         driver.get(url='https://twitter.com/')
-        time.sleep(20)
+        time.sleep(25)
 
         sign_in_btn = driver.find_element(By.XPATH,
                                           value='//*[@id="react-root"]/div/div/div/main/div/div/div/div[1]/div/div[3]/div[4]/span/span')
