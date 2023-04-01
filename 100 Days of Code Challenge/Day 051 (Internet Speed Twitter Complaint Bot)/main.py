@@ -54,7 +54,7 @@ class InternetSpeedTwitterBot:
         next_btn = driver.find_element(By.XPATH,
                                        value='//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div')
         next_btn.click()
-        time.sleep(10)
+        time.sleep(15)
 
         phone_no_field = driver.find_element(By.XPATH,
                                              value='//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input')
