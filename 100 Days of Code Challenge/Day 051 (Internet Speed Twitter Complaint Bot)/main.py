@@ -39,7 +39,7 @@ class InternetSpeedTwitterBot:
         sign_in_btn = driver.find_element(By.XPATH,
                                           value='//*[@id="react-root"]/div/div/div/main/div/div/div/div[1]/div/div[3]/div[4]/span/span')
         sign_in_btn.click()
-        time.sleep(10)
+        time.sleep(15)
 
         mail_sign_in = driver.find_element(By.XPATH,
                                            value='//*[@id="react-root"]/div/div/div/main/div/div/div/div[1]/div/div[3]/a')
