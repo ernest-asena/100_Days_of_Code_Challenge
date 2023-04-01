@@ -87,7 +87,7 @@ class InternetSpeedTwitterBot:
         send_tweet_btn = driver.find_element(By.XPATH,
                                              value='//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div/div[1]/div/div/div/div/div[2]/div[3]/div/div/div[2]/div[4]')
         send_tweet_btn.click()
-        time.sleep(30)
+        time.sleep(35)
 
 
 bot = InternetSpeedTwitterBot()
