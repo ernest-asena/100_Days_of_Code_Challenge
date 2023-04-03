@@ -11,6 +11,8 @@
 
 input_number = input("Enter a two digit number: ")
 
+print(type(input_number))
+
 first_digit = int(input_number[0])
 
 second_digit = int(input_number[1])
