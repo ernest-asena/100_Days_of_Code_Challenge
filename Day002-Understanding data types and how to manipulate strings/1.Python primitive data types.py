@@ -13,3 +13,7 @@ print(123_456_789)
 # Float
 
 rate = 3.1415
+
+# Booleans
+True
+False
