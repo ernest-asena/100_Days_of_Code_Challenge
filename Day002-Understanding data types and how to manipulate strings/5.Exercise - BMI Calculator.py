@@ -24,5 +24,5 @@ weight = float(input("What is your weight in kgs:: "))
 
 BMI = round((weight / height ** 2))
 
-print("Your BMI is " + str(BMI))
+print("Your BMI is: " + str(BMI))
 
