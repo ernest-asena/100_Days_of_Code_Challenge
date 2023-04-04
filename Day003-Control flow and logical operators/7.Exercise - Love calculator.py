@@ -27,7 +27,7 @@ size = input("What size pizza do you want? S, M, or L ")
 add_pepperoni = input("Do you want pepperoni? Y or N ")
 extra_cheese = input("Do you want extra cheese? Y or N ")
 
-#Write your code below this line 👇
+# Write your code below this line 👇
 
 small_pizza_bill = 15
 medium_pizza_bill = 20
@@ -37,7 +37,7 @@ peperoni_for_small_pizza = 2
 peperoni_for_medium_and_large_pizza = 3
 extra_cheese_price = 1
 
-bill = 0 
+bill = 0
 
 if size == 'S':
     bill = small_pizza_bill
@@ -56,9 +56,3 @@ if extra_cheese == 'Y':
     bill += extra_cheese_price
 
 print(f"Bill to pay: {bill}")
-
-
-
-
-
-
