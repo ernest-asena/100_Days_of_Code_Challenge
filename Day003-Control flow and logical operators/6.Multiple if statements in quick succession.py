@@ -7,7 +7,7 @@ if height > 120:
     print("You can ride.")
     age = int(input("Enter your age:: "))
     if age < 12:
-        print("Child tickets: $5")
+        print("Child tickets:: $5")
         bill = 5
     elif age <= 18:
         print("Youth tickets:: $7")
