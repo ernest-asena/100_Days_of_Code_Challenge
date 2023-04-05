@@ -62,7 +62,7 @@ print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 
-#Write your code below this line 👇
+# Write your code below this line 👇
 couple_name = name1 + name2
 t_count = couple_name.count('t')
 r_count = couple_name.count('r')
