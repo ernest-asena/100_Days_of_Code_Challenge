@@ -55,4 +55,4 @@ elif size == 'L':
 if extra_cheese == 'Y':
     bill += extra_cheese_price
 
-print(f"Bill to pay: {bill}")
+print(f"Total Bill to pay: {bill}")
