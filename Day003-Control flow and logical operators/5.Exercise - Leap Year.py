@@ -45,7 +45,7 @@ year_to_check = int(input("Enter a year to check if Leap:: "))
 if year_to_check % 4 == 0:
     if year_to_check % 100 == 0:
         if year_to_check % 400 == 0:
-            print("Leap")
+            print("Leap Year")
         else:
             print("Not Leap")
     else:
