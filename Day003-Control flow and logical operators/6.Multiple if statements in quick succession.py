@@ -20,4 +20,4 @@ if height > 120:
         bill += 3
     print(f"Your final bill is: {bill}.")
 else:
-    print("Sorry you gotta grow taller!!")
+    print("Sorry you can't ride today. Gotta grow taller!!")
