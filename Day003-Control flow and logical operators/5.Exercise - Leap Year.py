@@ -47,7 +47,7 @@ if year_to_check % 4 == 0:
         if year_to_check % 400 == 0:
             print("Leap Year")
         else:
-            print("Not Leap")
+            print("Not a Leap Year.")
     else:
         print("Leap")
 else:
