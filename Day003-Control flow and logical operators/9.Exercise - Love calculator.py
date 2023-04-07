@@ -96,4 +96,4 @@ if true_love_score < 10 or true_love_score > 90:
 elif 40 <= true_love_score <= 50:
     print(f"Your score is:: {true_love_score}, you are alright together.")
 else:
-    print(f"Your score is: {true_love_score}")
+    print(f"Your score is:: {true_love_score}")
