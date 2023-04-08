@@ -27,7 +27,7 @@
 
 # therefore: 14 % 4 = 2
 
-number = int(input("Enter a number to check: "))
+number = int(input("Enter a number to check\n: "))
 
 if number % 2 == 0:
     print("NUmber is Even.")
