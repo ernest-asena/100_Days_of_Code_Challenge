@@ -5,7 +5,7 @@ height = int(input("What is your height in cm? "))
 if height > 120:
     print("You can ride.")
 else:
-    print("Sorry you gotta grow taller!!")
+    print("Sorry, you gotta grow taller!!")
 
 # Comparison Operators 
 # > greater than  
