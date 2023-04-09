@@ -30,7 +30,7 @@
 number = int(input("Enter a number to check\n: "))
 
 if number % 2 == 0:
-    print("NUmber is Even!")
+    print("NUmber is Even...")
 else:
     print("Number is odd!")
 
