@@ -19,8 +19,6 @@ states_of_america.extend(["State 1", "State 2"])
 print(states_of_america)
 
 
-dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
-
 
 # Other List methods:
 
