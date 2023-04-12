@@ -8,5 +8,15 @@ print(states_of_america)
 print(states_of_america[0])
 print(states_of_america[-1])
 
+print(states_of_america.index('Hawaii'))
+
+states_of_america[1] = "Pennsylvaniaa"
+
+states_of_america.append("Khwisero Land")
+
+states_of_america.extend(["State 1", "State 2"])
+
+print(states_of_america)
+
 
 dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
