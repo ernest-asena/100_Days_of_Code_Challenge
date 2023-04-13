@@ -34,4 +34,4 @@ for height in student_heights:
 
 average_height = round(height_sum / number_of_students)
 
-print(f"Average height rounded to the nearest whole number:: {average_height}")
+print(f"Average height rounded to the nearest whole number: {average_height}")
