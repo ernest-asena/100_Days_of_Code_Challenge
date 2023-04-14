@@ -5,5 +5,5 @@ def my_function():
     print("Hello")
     print("Bye")
 
-
+# to use or execute the function, you just need to call it like below:
 my_function()
