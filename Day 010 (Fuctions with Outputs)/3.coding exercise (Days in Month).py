@@ -14,6 +14,7 @@
 # A leap year has 29 days in February.
 
 def is_leap(year):
+    """Take a year and return True if it is a leap year, otherwise return False"""
     if year % 4 == 0:
         if year % 100 == 0:
             if year % 400 == 0:
