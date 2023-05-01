@@ -1,4 +1,5 @@
 def format_name(f_name, l_name):
+    """Take a first and last name and format it"""
     if f_name =='' or l_name =='':
         return 'You did not provide any inputs.'
     f_name = f_name.capitalize()
