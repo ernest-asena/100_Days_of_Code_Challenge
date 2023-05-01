@@ -6,6 +6,7 @@ total = 100
 
 
 def func():
+    """Modify global variable 'total'"""
     # refer to global variable 'total' inside function
     global total
     if total > 10:
