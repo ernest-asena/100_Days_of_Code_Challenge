@@ -17,6 +17,7 @@ def divide(n1, n2):
 
 
 def multiply(n1, n2):
+    """This function multiplies two numbers."""
     return n1 * n2
 
 
