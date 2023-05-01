@@ -30,6 +30,7 @@ def set_difficulty():
 
 
 def game():
+    """Main function to run the game."""
     print(logo)
     # Choosing a random number between 1 and 100.
     print("Welcome to the Number Guessing Game!")
