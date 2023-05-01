@@ -33,6 +33,7 @@ print("Welcome to the NS007 Calculator!")
 
 
 def calculator():
+    """This function is the calculator."""
     num1 = float(input('What is the first number?\nFIRST NUMBER:::   '))
     calc_again = True
     while calc_again:
