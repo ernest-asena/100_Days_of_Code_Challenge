@@ -45,6 +45,7 @@
 
 # #Use a Debugger
 def mutate(a_list):
+    """Double the values in a list."""
     b_list = []
     for item in a_list:
         new_item = item * 2
