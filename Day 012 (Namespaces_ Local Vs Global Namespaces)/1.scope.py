@@ -15,6 +15,7 @@ enemies = 1
 
 
 def increase_enemies():
+    """This function increases the number of enemies by 1."""
     enemies = 2
     print(f"enemies inside function: {enemies}")
 
