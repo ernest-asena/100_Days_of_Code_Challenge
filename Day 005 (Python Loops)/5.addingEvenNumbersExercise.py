@@ -13,7 +13,7 @@ for number in range(0, 101):
 
 print(f"The sum of the Even Numbers Between 0 and 100 is: {sum_Evens_zero_to_oneHundred}")
 
-print("*********************************************************************")
+print("***********************************************************************************")
 # Another way is to alter the step size
 sum_Evens_zero_to_oneHundred = 0
 for number in range(2, 101, 2):
